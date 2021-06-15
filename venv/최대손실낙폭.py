@@ -27,7 +27,7 @@ max_dd = dd.rolling(window,min_periods=1).min()
 
 print(max_dd.min() )
 
-#print( max_dd[max_dd==-0.5453665130144085] )
+print( max_dd[max_dd==-0.5453665130144085] )
 
 
 from pandas.plotting import register_matplotlib_converters
